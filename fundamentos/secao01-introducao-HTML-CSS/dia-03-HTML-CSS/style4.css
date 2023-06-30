@@ -1,0 +1,41 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+h1, h3 {
+ color: red;   
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 900;
+}
+
+ul:nth-of-type(1) li:nth-child(-n +3){
+    color: blue;    
+}
+
+ul:nth-of-type(1) li:nth-child(-n +3) :content("java")::after{
+    background-color: rosybrown;    
+}
+
+ul li a:hover {
+    font-weight: bolder;
+    color: red;
+}
