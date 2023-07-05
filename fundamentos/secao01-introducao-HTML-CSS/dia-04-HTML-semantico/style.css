@@ -1,0 +1,43 @@
+h1 {
+   text-align: center;
+}
+
+ul {
+   list-style: none;
+}
+
+.first, .second, .third {
+   font-size: 20px;
+   height: 50px;
+   text-align: center;
+}
+
+.second, .third {
+   display: inline-block;
+   width: 300px;
+}
+
+.first {
+   background-color: rgb(235, 200, 84);
+   width: 200px;
+   margin: auto; 
+}
+
+.second {
+   background-color: rgb(219, 219, 219);
+   margin-left:25%;
+}
+
+.third {
+   background-color: rgb(170, 142, 106);   
+}
+
+.premiacao {
+    text-align: center;
+}
+
+.premiacao ul li {
+    display: inline;
+}
+
+ 
